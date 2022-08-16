@@ -9,5 +9,5 @@ Tipografía Principal: font-family: 'Nanum Myeongjo', serif.  Encabezados en Nan
 Paleta de colores: #8C494F , #F1F2E9, #0D0000
 
 Creación de logo: El logo incluira el nombre de la empresa y la frase slogan de la misma 'Somos una tienda dedicada a cultivar felicidad'. El logo mostrara esta frase y tendra orquideas sobre fondo negro. 
-https://github.com/Rainbowpau/Calixto-BoutiqueDeOrquideas/blob/main/wepik-photo-mode-2022716-163351.png
+![alt text] (https://github.com/Rainbowpau/Calixto-BoutiqueDeOrquideas/blob/main/wepik-photo-mode-2022716-163351.png)
 
