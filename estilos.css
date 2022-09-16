@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nanum Myeongjo, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+  color: black
+}
+
+h1 {
+  color:#8C494F
+}
+
+h2 {
+  color:#8C494F
+}
+
