@@ -137,8 +137,39 @@ width: 100%;
   margin-top: 20px;
 }
 
+.buy {
+  border-radius: 20px;
+  padding: 10px;
+  border-color: pink;
+  background-color: lightpink;
+  margin-top: 20px;
+} 
+
+
+.detail-product {
+  width: 35%;
+  padding-left: 40px;
+  text-align: justify;
+}
+ 
+.flex {
+  justify-content: center;  
+  align-items: center;  
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 600px) {
   .articles-container {
     flex-direction: column;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .detail-product {
+    width: 80%;
+    margin-top: 20px;
   }
 }
