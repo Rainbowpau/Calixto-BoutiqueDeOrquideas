@@ -3,7 +3,9 @@
 
 
 :root {
- --theme-color: white;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
  --navbar-shallow-color: grey;
  --menu-mobile-background-color: #7e7676; 
 }
@@ -23,7 +25,7 @@ a{
 
 p{
   text-align: center;
-  color: black
+  color: #8C494F;
 }
 
 h1 {
@@ -54,7 +56,7 @@ h2 {
 
 .topnav {
   display: flex;
-  background-color: #8C494F;
+  background-color:lightpink;
   justify-content: space-between;
   padding: 10px;
   height:130px;
@@ -70,6 +72,7 @@ h2 {
   list-style: none;
   margin:0;
   padding:0;
+  color: #8C494F;
 }
 
 .menu li {
@@ -84,7 +87,7 @@ h2 {
 
 footer{
   display: flex;
-  background-color: #8C494F;
+  background-color:#ffb6c1;
   justify-content: space-between;
   padding: 10px;
   margin: 0 auto;
@@ -95,6 +98,7 @@ footer{
   display: flex;
   flex-direction: column;
   align-self: center;
+  color: #8C494F;
 }
 
 .info{
@@ -110,6 +114,9 @@ footer{
 height: 400px;
 margin-top: 130px;
 width: 100%;
+}
+.icon-basket{
+  color: #8C494F;
 }
 
 .articles-container {
@@ -147,6 +154,7 @@ width: 100%;
   border-color: pink;
   background-color: lightpink;
   margin-top: 20px;
+  color: #8C494F;
 } 
 
 
