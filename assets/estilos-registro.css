@@ -60,12 +60,19 @@ button{
   background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   ;
-  color: #FF0080;
+  color: #8C494F;
   display: block;
   width: 80%;
   margin: 10px auto;
   height: 40px;
   cursor: pointer;
+}
+
+.boton-home{
+  width: 10%;
+  align-items: center;
+  position: absolute;
+  top: 40px; left: 40px;
 }
 
 
@@ -88,6 +95,9 @@ font-size: 12px;
 
 @media screen and (max-width:500px) {
   form{
+    width: 80%;
+  }
+  .boton-home{
     width: 80%;
   }
 }  

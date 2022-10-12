@@ -29,11 +29,15 @@ p{
 }
 
 h1 {
-  color:#8C494F
+  color:#FF0080;
 }
 
 h2 {
-  color:#8C494F
+  color:#FF0080;
+}
+
+h3 {
+  color:#FF0080;
 }
 
 .div hero-banner{
@@ -157,6 +161,10 @@ width: 100%;
   color: #8C494F;
 } 
 
+button{
+  color: #8C494F;
+}
+
 
 .detail-product {
   width: 35%;
@@ -195,6 +203,10 @@ width: 100%;
 
 .article-name {
   padding: 20px 0px;
+}
+
+a{
+  color:#8C494F
 }
 
 @media screen and (max-width: 600px) {
